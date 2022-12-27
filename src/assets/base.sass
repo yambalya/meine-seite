@@ -1,0 +1,131 @@
+@import "node_modules/hamburgers/_sass/hamburgers/hamburgers.scss"
+
+@import "node_modules/@splidejs/splide/src/css/themes/default"
+@import "node_modules/@splidejs/splide/src/css/core"
+
+
+@font-face
+  font-family: Raleway
+  src: url(src/assets/fonts/Raleway-VariableFont_wght.ttf)
+
+body
+  width: 100vw
+  margin: 0
+  background-color: white
+  font-family: Raleway, serif
+
+
+nav.header
+  width: 100vw
+  position: absolute
+  top: 0
+  background-color: white
+  text-align: center
+  z-index: 99
+
+nav.header > .burger
+  position: absolute
+  top: 5px
+  left: 5px
+
+nav.header > .title
+  color: black
+  font-weight: bold
+  font-size: 36px
+  padding: 10px
+  display: inline-block
+
+nav.nav-fullscreen
+  position: absolute
+  width: 100vw
+  height: 100vh
+  background-color: white
+  box-sizing: border-box
+  padding: 120px
+  z-index: 98
+  top: -100vh
+  transition: top 0.6s
+
+  &.is-active
+    top: 0
+
+  a
+    display: block
+    font-size: 64px
+
+.main-content
+  width: 900px
+  margin: 40px auto
+
+.top-element
+  margin-top: 64px
+
+.hero
+  background-color: #2c3445
+  width: 100vw
+  height: 600px
+  left: 0
+
+  div
+    width: 900px
+    margin: 40px auto
+
+.full-screen-image
+  width: 100vw
+  height: 100vh
+  background-position: center center
+  background-repeat: no-repeat
+  background-size: cover
+
+  &.top-element
+    height: calc(100vh - 64px)
+
+.half
+  margin: 30px 0
+
+  div
+    display: inline-block
+    width: calc(50% - 40px)
+    margin: 0 20px
+    vertical-align: top
+
+    .title
+      font-weight: bold
+      display: block
+      margin-bottom: 10px
+
+.giant
+  font-size: 96px
+  font-weight: bold
+  color: #2c3445
+
+.hero-block
+  background-color: #2c3445
+  width: 100%
+  position: relative
+  padding: 20px 0
+
+  div
+    width: calc(100% - 20px)
+    max-width: 900px
+    margin: 20px auto
+    color: white
+
+.image-block
+  width: calc(100% - 20px)
+  margin: 40px auto
+  max-width: 1000px
+  display: block
+
+.splide-slide-image
+  width: 100%
+
+.splide__arrow
+  height: 60px
+  width: 60px
+
+.splide__arrow--next
+  margin-right: -120px
+
+.splide__arrow--prev
+  margin-left: -120px

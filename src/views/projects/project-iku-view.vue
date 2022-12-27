@@ -72,22 +72,26 @@
   </div>
   <div class="hero-block">
     <div>
-      Das Gebäude setzt sich aus drei einzelnen Gebäuden verschiedener Größe zusammen.
-      Diese werden durch das Obergeschoss, welches das gesamte Baugrundstück ausfüllt, vereint.
-      Jedes Gebäude besitzt ein Oberlicht.
+      Das Gebäude setzt sich aus drei einzelnen Gebäuden verschiedener Größe zusammen. Diese werden durch das
+      Obergeschoss, welches das gesamte Baugrundstück ausfüllt, vereint. Jedes Gebäude besitzt ein Oberlicht.
     </div>
   </div>
   <img class="image-block" src="src/assets/projects/iku/LAGEPLAN FINAL.jpg"/>
   <div class="hero-block">
     <div>
-      Das Gebäude besitz zwei ebenbürtige Eingänge, welche jeweils leicht nach innen eingerückt sind und somit eine
-      klare Eingangsgeste bilden.
-      Der erste Eingang befindet sich zur Kirche hin orientiert. Man erreicht ihn direkt über die Große Straße.
-      Der zweite Eingang befindet sich auf der Seite des Parks. Des weiteren kann man das Kulturhaus auch direkt über
-      den historischen Bogengang
-      aus dem Inneren der Wunderblutkirche erreichen. Das Kulturhaus besitzt eine großzügige, einläufige Treppe, die das
-      gesamte Gebäude erschließt.
-      Durch eine außenliegende Rampe und einen Fahrstuhl im Inneren ist das Gebäude vollständig barrierefrei nutzbar.
+      <p>
+        Das Gebäude besitz zwei ebenbürtige Eingänge, welche jeweils leicht nach innen eingerückt sind und somit eine
+        klare Eingangsgeste bilden.
+      </p>
+      <p>
+        Der erste Eingang befindet sich zur Kirche hin orientiert. Man erreicht ihn direkt über die Große Straße.
+        Der zweite Eingang befindet sich auf der Seite des Parks. Des weiteren kann man das Kulturhaus auch direkt über
+        den historischen Bogengang aus dem Inneren der Wunderblutkirche erreichen. Das Kulturhaus besitzt eine
+        großzügige, einläufige Treppe, die das gesamte Gebäude erschließt.
+      </p>
+      <p>
+        Durch eine außenliegende Rampe und einen Fahrstuhl im Inneren ist das Gebäude vollständig barrierefrei nutzbar.
+      </p>
     </div>
   </div>
   <div class="main-content">
@@ -207,7 +211,7 @@
     </div>
   </div>
   <div class="full-screen-image"
-       style="background-image: url('src/assets/projects/iku/Parkcafe.jpg')">
+       style="background-image: url('src/assets/projects/iku/Parkcafe.jpg'); margin-top: 40px">
   </div>
 </template>
 <script>

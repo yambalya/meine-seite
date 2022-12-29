@@ -1,7 +1,7 @@
 <template>
 <nav class="header">
   <div class="burger">
-    <button class="hamburger hamburger--squeeze" type="button" @click="menuActive = !menuActive" :class="{'is-active': menuActive}">
+    <button class="hamburger hamburger--squeeze" type="button" @click="burgerClicked" :class="{'is-active': menuActive}">
       <span class="hamburger-box">
         <span class="hamburger-inner"></span>
       </span>
@@ -32,6 +32,11 @@ export default {
   data(){
     return {
       menuActive: false
+    }
+  },
+  methods:{
+    burgerClicked(){
+      this.menuActive = !this.menuActive
     }
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <div :class="position" @click="$router.push({name: projectName})">
+  <div :class="position" @click="openProject">
     <div class="image" :style="{ backgroundImage: `url('${baseImage}')`, backgroundColor }">
       <div :style="{ backgroundImage: `url('${hoverImage}')` }"></div>
     </div>
@@ -23,6 +23,11 @@ export default {
     position: String,
     backgroundColor: String,
     projectName: String
+  },
+  methods: {
+    openProject(){
+      this.$router.push({name: this.projectName})
+    }
   }
 }
 </script>

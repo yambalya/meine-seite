@@ -75,7 +75,7 @@
           Vilnius Gediminas Technical University, Litauen
         </span>
         <span>
-          <i>vsl. 30.02.2020</i><br><strong>M.A. Architektur</strong>
+          <i>vsl. 30.02.2023</i><br><strong>M.A. Architektur</strong>
           Fachhochschule Erfurt University of Applied Science
         </span>
       </div>

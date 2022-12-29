@@ -87,7 +87,7 @@
     <div>
       <img src="src/assets/projects/sweets/Projekt-03-Pikto-06.png">
       <span>
-        Neues Assamblee.
+        Neues Ensemble.
       </span>
     </div>
   </div>

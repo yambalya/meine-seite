@@ -1,6 +1,5 @@
 <template>
-  <div class="top-element full-screen-image"
-       style="background-image: url('/src/assets/projects/iku/Aussenperspektive-Final-.png')">
+  <div class="top-element full-screen-image">
   </div>
   <div class="half">
     <div>
@@ -168,6 +167,9 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+.top-element
+  background-image: url('@/assets/projects/iku/Aussenperspektive-Final-.png')
+
 .hero-block
   background-color: #ccccd1
 

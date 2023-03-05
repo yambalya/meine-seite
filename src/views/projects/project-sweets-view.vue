@@ -1,6 +1,5 @@
 <template>
-  <div class="top-element full-screen-image"
-       style="background-image: url('/src/assets/projects/sweets/Außenperspektive.png')">
+  <div class="top-element full-screen-image">
   </div>
   <div class="half">
     <div>
@@ -179,6 +178,9 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+.top-element
+  background-image: url('@/assets/projects/sweets/Aussenperspektive.png')
+
 .hero-block
   background-color: #edc152
 

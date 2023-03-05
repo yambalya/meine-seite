@@ -1,3 +1,7 @@
+<script setup>
+import axometrie from '@/assets/projects/sweets/Axometrie.png'
+import perspektiveInnen from '@/assets/projects/sweets/Perspektiven-Innen.png'
+</script>
 <template>
   <div class="top-element full-screen-image">
   </div>
@@ -78,8 +82,8 @@
       {{ $t("sweets.heroBlockFour") }}
     </div>
   </div>
-  <div class="full-screen-image"
-       style="background-image: url('/src/assets/projects/sweets/Axometrie.png'); margin-top: 0">
+  <div class="full-screen-image axometrie-image"
+       :style="{backgroundImage: `url(${axometrie})`, marginTop: 0}">
   </div>
   <div class="hero-block">
     <div>
@@ -150,8 +154,7 @@
       </SplideSlide>
     </Splide>
   </div>
-  <div class="full-screen-image"
-       style="background-image: url('/src/assets/projects/sweets/Perspektiven-Innen.png'); margin-top: 40px">
+  <div class="full-screen-image" :style="{backgroundImage: `url(${perspektiveInnen})`, marginTop: 0}">
   </div>
 </template>
 
@@ -180,6 +183,9 @@ export default {
 <style lang="sass" scoped>
 .top-element
   background-image: url('@/assets/projects/sweets/Aussenperspektive.png')
+
+.axometrie-image
+
 
 .hero-block
   background-color: #edc152

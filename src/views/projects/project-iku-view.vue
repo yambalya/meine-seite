@@ -5,12 +5,12 @@
   <div class="half">
     <div>
       <span class="giant">
-        Dorf im Dorf
+        {{ $t("iku.giant") }}
       </span>
     </div>
     <div>
       <span class="title">
-        Kulturhaus Bad Wilsnack
+       {{ $t("iku.title") }}
       </span>
       <p>
         Bachelorthesis SOSE 2020<br>
@@ -39,10 +39,7 @@
   </div>
   <div class="hero-block">
     <div>
-      Das Kulturhaus Bad Wilsnack positioniert sich auf der alten Schlossplatte und füllt diese komplett aus.
-      Man erreicht es über die Straße „an der Nikolaikirche“ vom Park aus. Das Gebäude stellt sich direkt der St.
-      Nikolai Wunderblutkirche entgegen, bildet dabei aber keinen neuen Landmarker. Vielmehr wird die Funktion als
-      öffentliches Gebäude verdeutlicht. Auf der anderen Seite bindet es sich In die Natur und den Schlosspark ein.
+      {{ $t("iku.heroBlockOne") }}
     </div>
   </div>
   <div class="threely">
@@ -58,7 +55,7 @@
     <div>
       <img src="src/assets/projects/iku/Projekt-01-Pikto-02.png">
       <span>
-        Zusammenfügen der 3 einzelnen Gebäude durch das Obergeschoss.
+        {{ $t("iku.threelyCaption.2") }}
       </span>
     </div>
     <div>
@@ -67,14 +64,13 @@
     <div>
       <img src="src/assets/projects/iku/Projekt-01-Pikto-03.png">
       <span>
-        bilden ein gesamtes Ensemble, welches sich perfekt in die Umgebung einfügt.
+       {{ $t("iku.threelyCaption.3") }}
       </span>
     </div>
   </div>
   <div class="hero-block">
     <div>
-      Das Gebäude setzt sich aus drei einzelnen Gebäuden verschiedener Größe zusammen. Diese werden durch das
-      Obergeschoss, welches das gesamte Baugrundstück ausfüllt, vereint. Jedes Gebäude besitzt ein Oberlicht.
+      {{ $t("iku.heroBlockTwo") }}
     </div>
   </div>
   <img class="image-block" src="src/assets/projects/iku/LAGEPLAN FINAL.jpg"/>
@@ -117,25 +113,7 @@
     />
   </div>
   <div class="hero-block">
-    <div>
-      <p>
-        Das neue Kulturhaus stellt seinen Anspruch als neuen Mittelpunkt und Treffpunkt der Stadt klar da.
-        Es soll sowohl ältere, wie auch jüngere Menschen in seinen Bann ziehen. Der große multifunktionale Saal kann
-        verschiedenen Chor- und Kapellengruppen ein Platz zum Proben und Darstellen bieten. Darüber hinaus soll ein
-        kleines Parkcafé im Gebäude Platz finden, welches Kurgäste sowie Pilgerreisende zum Verweilen animieren wird.
-        Zusammengefasst entsteht somit ein neues Zentrum am alten Mittelpunkt Bad Wilsnacks, das die gesamte
-        Bewohnerschaft vereint und auch ein neuer kultureller Mittelpunkt für die gesamte Region wird.
-      </p>
-      <p>
-        Der Entwurf bezieht seine Identität aus dem Ort Bad Wilsnack mit seiner ländlich geprägten
-        Bebauungsstruktur. Die Gebäudeform spielt mit Analogien aus der Umgebung und transformiert
-        diese in eine eigene formale und funktionale Aussage. Als Bild entsteht ein vereinendes Gebäude,
-        welches der Mittelpunkt der Kultur im Ort sein will und dieses auch nach außen hin ausstrahlt.
-        Drei unterschiedliche Gebäudekubaturen stehen für die ländlich zergliederte Bebauung. Diese
-        positionieren sich unabhängig voneinander auf dem Bestandssockel. Jede Kubatur bekommt dabei
-        eine räumliche Funktion zugesprochen. Im Obergeschoss werden diese unabhängigen Gebäude
-        miteinander vereint und bilden ein gesamtes Ensemble.
-      </p>
+    <div v-html="$t('iku.heroBlockDescriptionTwo')">
     </div>
   </div>
   <div class="main-content">
@@ -155,21 +133,7 @@
     />
   </div>
   <div class="hero-block">
-    <div>
-      <p>
-        Die einzelnen Gebäudekubaturen bekommen jeweils eigene Raumfunktionen zugesprochen.
-        So befindet sich im Erdgeschoss ein Parkcafé welches mit einem neuen, modern interpretierten Kreuzgewölbe eine
-        Analogie zum Bestandsgewölbe des alten Schlosses bezieht. Neben den dienenden Räumen befindet sich außerdem eine
-        große, individuell bespielbare Ausstellungsfläche im Erdgeschoss. An diese schließt sich eine Treppe an, die in
-        den Gewölbekeller führt. In diesem werden die alten Särge der Grabstätten ausgestellt und es entsteht ein Raum
-        der Ruhe und Andacht.
-      </p>
-      <p>
-        Im Obergeschoss befindet sich der multifunktionale Saal, welcher durch seine einzigartige Form besonders
-        polyvalent genutzt werden kann. Neben Aufführungen des ortsansässigen Orchesters oder Chores bietet er auch Raum
-        für eine Winterkirche, Theateraufführungen, Gemeinde- oder Firmentagungen, wie auch Kunst- und Kulturabende von
-        Solokünstlern.
-      </p>
+    <div v-html="$t('iku.heroBlockDescriptionThree')">
     </div>
   </div>
   <div class="main-content">
@@ -187,23 +151,13 @@
   </div>
   <div class="hero-block">
     <div>
-        Direkt angeschlossen an den Saal befindet sich ein großer Gruppen- und Vorbereitungsraum. Dieser ist direkt am
-        Bogengang gelegen und ermöglicht es somit, von der Gemeinde während der Gottesdienste als abgetrennter Raum
-        genutzt zu werden, beispielsweise für den Kindergottesdienst. Durch Oberlichter fällt indirekt Licht aus Norden
-        in die Ausstellungsfläche im Obergeschoss. Hier sollen Exponate aus der Kirche und Wallfahrtsgeschichte
-        präsentiert und ausgestellt werden. Das Kulturhaus Bad Wilsnack bildet sich als neue kultureller Mittelpunkt der
-        Region aus. Dadurch erhält der Ort weitere Strahlkraft und bestärkt seine Wichtigkeit und geschichtliche
-        Relevanz für die Region.
+      {{ $t("iku.heroBlockThree") }}
     </div>
   </div>
   <img class="image-block" src="src/assets/projects/iku/Parkcafe.png"/>
   <div class="hero-block">
     <div>
-      Die Außenhaut des Gebäudes besteht aus einem geformten Lochblech. Diese gibt dem Gebäude eine transluzente Haut.
-      Dabei steht sie in klarem Kontrast zu den Backsteinfassaden der Umgebung, bindet sich aber gleichzeitig in den
-      Park und die Vegetation sowie Umgebung ein.
-      Als Innenmaterial wurde Holz gewählt, welches Wärme und Geborgenheit wiederspiegelt. Die Ausstellungsfläche ist in
-      neutralem Weiß gehalten.
+      {{ $t("iku.heroBlockFour") }}
     </div>
   </div>
   <div class="full-screen-image"

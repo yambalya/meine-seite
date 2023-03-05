@@ -11,7 +11,7 @@
     />
     <project-thumbnail
         title="FWB"
-        subtitle="Fassaden Wettbewerb Hubertusalle Berlin"
+        :subtitle="$t('ProjectViews.subtitleTwo')"
         base-image="src/assets/Pikto-Projekt-03.png"
         hover-image="src/assets/Projekt-03-perspektive.jpg"
         position="center"
@@ -20,7 +20,7 @@
     />
     <project-thumbnail
         title="HdKB"
-        subtitle="Haus der Künste Berlin"
+        :subtitle="$t('ProjectViews.subtitleThree')"
         base-image="src/assets/Pikto-Projekt-02.png"
         hover-image="src/assets/Projekt-02-perspektive.jpg"
         position="right"
@@ -29,7 +29,7 @@
     />
     <project-thumbnail
         title="IKuH"
-        subtitle="Initiative Kultur Haus Bad Wilsnack"
+        :subtitle="$t('ProjectViews.subtitleFour')"
         base-image="src/assets/Pikto-Projekt-01.png"
         hover-image="src/assets/Projekt-01-perspektive.jpg"
         position="center"

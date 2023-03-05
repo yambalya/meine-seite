@@ -9,63 +9,34 @@
       </span>
     </div>
     <div>
-      <span class="title">
-        Haus der Künste Berlin<br>
-        Die ETAGE
+      <span class="title" v-html="$t('hdkb.title')">
       </span>
-      <p>
-        Masterprojektstudio WISE 2020/2021<br>
-        Konstruktiver Entwurf<br>
-        Franz Schmidt | Wilhelm Franke
-      </p>
-      <p>
-        Professor Oliver Sachse<br>
-        Professor Philipp Krebs
-      </p>
-      <p>
-        An der Rumelsburgerbucht in Berlin soll für die ETAGE ein neuer Schulkomplex entstehen.
-        Dieser Entwurf soll die Identität und Komplexität der Schule einen. Es soll ein optimaler Platz zum Lehren sein
-        und die Qualitäten und vielen interdisziplinären Angebote der Schule vereinen. Dabei soll es auch nach außen
-        sichtbar sein und der Schule einen neuen Präsenz im Quartier und der Stadt bieten.
+      <p v-html="$t('hdkb.projectDescription')">
       </p>
     </div>
   </div>
   <div class="hero-block">
     <div>
-     <p>
-        Der Entwurf ist vom Konzeptionellen Prinzip ein Campus. Dieser ist ein „zusammenhängender Komplex von Gebäuden,
-        die üblicherweise von park- ähnlichen Anlagen umgeben sind.“ (Wikipedia.org).
-        Somit stellt der Entwurf einen starken Bezug zwischen Innen und Außenraum her.
-        Es entstehen spannender Bereiche zwischen den Gebäuden, diese sich gekonnt auf dem Grundstück verteilen.
-        Der Formausbildung ging eine Bewegungsstudie zuvor und anderen Proportionalen Überlegungen.
-     </p>
-      <p>
-        Des Weiteren ist es wichtig das er eine Strahlkraft nach außen bekommt und ein Ort ist, der für alle zugänglich ist.
-        Kurz um es muss ein Gebäudekomplex einstehen, welcher die verschiedenen Fachrichtungen der Schule eint,
-        einen Starken Bezug zum Außenraum herstellt und als Landmarker Stellung bezieht. Ziel ist es,
-        entsprechend einer interdisziplinären Lehre die verschiedenen Fachbereiche der Schule wieder an einem Ort
-        zusammenzuführen.
-        Die Schule bietet eine lebendige Interaktion mit ihrem Standort und entwickelt einen urbanen Platz und Treffpunkt.
-      </p>
+      {{ $t("hdkb.heroBlockOne") }}
     </div>
   </div>
   <div class="threely">
     <div>
       <img src="src/assets/projects/hdkb/Projekt-02-Pikto-04.png">
       <span>
-        Grundstück Rummelsburger Bucht.
+        {{ $t("hdkb.threelyCaption.1") }}
       </span>
     </div>
     <div>
       <img src="src/assets/projects/hdkb/Projekt-02-Pikto-05.png">
       <span>
-        Ableitung Campus Fläche anhand des Grundstückes.
+        {{ $t("hdkb.threelyCaption.2") }}
       </span>
     </div>
     <div>
       <img src="src/assets/projects/hdkb/Projekt-02-Pikto-06.png">
       <span>
-        Setzen der Solitäre auf das Grundstück.
+        {{ $t("hdkb.threelyCaption.3") }}
       </span>
     </div>
   </div>
@@ -73,108 +44,101 @@
     <div>
       <img src="src/assets/projects/hdkb/Projekt-02-Pikto-07.png">
       <span>
-        Analyse Städtebaulichefluchten.
+        {{ $t("hdkb.threelyCaption.4") }}
       </span>
     </div>
     <div>
       <img src="src/assets/projects/hdkb/Projekt-02-Pikto-08.png">
       <span>
-        Subtraktion Kubatur.
+        {{ $t("hdkb.threelyCaption.5") }}
       </span>
     </div>
     <div>
       <img src="src/assets/projects/hdkb/Projekt-02-Pikto-09.png">
       <span>
-        Finale Baukörper.
+        {{ $t("hdkb.threelyCaption.6") }}
       </span>
     </div>
   </div>
   <div class="hero-block">
     <div>
-      Um den Entwurf bestmöglich auf den Ort und Kontext anzupassen erfolgte eine Bewegung Analyse des Grundstückes.
-      Nach dem Motto „form follows people“ wurden Bewegungslinien aufgezeichnet, die den neuen urbanen Platz definierten
-      und gestalten.
-      Auch die markanten schrägen Grenzen des Flurstücks bestimmen die Kubatur des Entwurfes mit. Es bildet sich auf dem
-      Grundstück eine
-      große an das Grundstück angepasste Platte als urbaner Mittelpunkt aus. Dieser wird von den drei Solitären welche
-      sinnbildlich für
-      die 3 Säulen: zeitgenössische Kunst, Gemeinwesen und Bildung stehen durchstoßen. Die Platte ist dabei an den
-      Bahndamm angebunden.
-      Dadurch erhält das Gebäude einen starken öffentlichen Bezug und ist ein neuer ein- ladender Begegnungsort. Die
-      Solitär Kubatur bekommt
-      im 2.Obergeschoss einen Knick dadurch stärkt die Gebäude Form den Öffentlichkeit Bezug des 1.Obergeschosses,
-      bildet eine Eingangsgeste,
-      schafft Blickbeziehungen und definiert die Nutzungsverteilung innerhalb des Gebäudes.
+      {{ $t("hdkb.heroBlockTwo") }}
     </div>
   </div>
   <div class="threely">
     <div>
       <img src="src/assets/projects/hdkb/Projekt-02-Pikto-01.png">
       <span>
-        Setzten der 3 Kubatur auf die bestands Platte.
+        {{ $t("hdkb.threelyCaption.7") }}
       </span>
     </div>
     <div>
       <img src="src/assets/projects/hdkb/Projekt-02-Pikto-02.png">
       <span>
-        Zusammenfügen der 3 einzelnen Gebäude durch das Obergeschoss.
+        {{ $t("hdkb.threelyCaption.8") }}
       </span>
     </div>
     <div>
       <img src="src/assets/projects/hdkb/Projekt-02-Pikto-03.png">
       <span>
-        bilden ein gesamtes Ensemble, welches sich perfekt in die Umgebung einfügt.
+        {{ $t("hdkb.threelyCaption.9") }}
       </span>
     </div>
   </div>
   <div class="hero-block">
     <div>
-      Das glaube ich jeetzt aber nicht
+      {{ $t("hdkb.heroBlockThree") }}
     </div>
   </div>
   <img class="image-block" src="src/assets/projects/hdkb/Lageplan_1-500-Final.png"/>
   <div class="hero-block">
     <div>
-      <p>
-        hallo
-      </p>
+      {{ $t("hdkb.heroBlockFour") }}
     </div>
   </div>
   <div class="main-content">
     <Splide>
       <SplideSlide>
         <img src="src/assets/projects/hdkb/Axo-Staedtebau-Final.png" class="splide-slide-image">
-        <span class="image-caption">Die Weltgrößte Falaffel</span>
+        <span class="image-caption">{{ $t("hdkb.splideCaption.1") }}</span>
       </SplideSlide>
       <SplideSlide>
         <img src="src/assets/projects/hdkb/Projekt-02-Pikto-10.png" class="splide-slide-image"/>
+        <span class="image-caption">{{ $t("hdkb.splideCaption.2") }}</span>
       </SplideSlide>
       <SplideSlide>
         <img src="src/assets/projects/hdkb/Projekt-02-Pikto-11.png" class="splide-slide-image"/>
+        <span class="image-caption">{{ $t("hdkb.splideCaption.3") }}</span>
       </SplideSlide>
       <SplideSlide>
         <img src="src/assets/projects/hdkb/Projekt-02-Pikto-12.png" class="splide-slide-image"/>
+        <span class="image-caption">{{ $t("hdkb.splideCaption.4") }}</span>
       </SplideSlide>
       <SplideSlide>
         <img src="src/assets/projects/hdkb/Projekt-02-Pikto-13.png" class="splide-slide-image"/>
+        <span class="image-caption">{{ $t("hdkb.splideCaption.5") }}</span>
       </SplideSlide>
       <SplideSlide>
         <img src="src/assets/projects/hdkb/Projekt-02-Pikto-14.png" class="splide-slide-image"/>
+        <span class="image-caption">{{ $t("hdkb.splideCaption.6") }}</span>
       </SplideSlide>
       <SplideSlide>
         <img src="src/assets/projects/hdkb/Projekt-02-Pikto-15.png" class="splide-slide-image"/>
+        <span class="image-caption">{{ $t("hdkb.splideCaption.7") }}</span>
       </SplideSlide>
       <SplideSlide>
         <img src="src/assets/projects/hdkb/Projekt-02-Pikto-16.png" class="splide-slide-image"/>
+        <span class="image-caption">{{ $t("hdkb.splideCaption.8") }}</span>
       </SplideSlide>
       <SplideSlide>
         <img src="src/assets/projects/hdkb/Axo-EG.png" class="splide-slide-image"/>
+        <span class="image-caption">{{ $t("hdkb.splideCaption.9") }}</span>
       </SplideSlide>
     </Splide>
   </div>
   <div class="hero-block">
     <div>
-      soßen mit hosen
+      {{ $t("hdkb.heroBlockFive") }}
     </div>
   </div>
   <div class="full-screen-image"
@@ -182,7 +146,7 @@
   </div>
   <div class="hero-block">
     <div>
-      lol
+      {{ $t("hdkb.heroBlockSix") }}
     </div>
   </div>
   <div class="main-content">
@@ -229,7 +193,7 @@
   </div>
   <div class="hero-block">
     <div>
-      soos mit kloß
+      {{ $t("hdkb.heroBlockSeven") }}
     </div>
   </div>
   <div class="main-content">
@@ -246,24 +210,19 @@
     </Splide>
   </div>
   <div class="hero-block">
-    <div>
-      soos
+    <div v-html="$t('hdkb.heroBlockDescriptionOne')">
     </div>
   </div>
   <img class="image-block" src="src/assets/projects/hdkb/1_50-Schnitt_Ansicht.png"/>
   <div class="hero-block">
     <div>
-      <p>
-        hallo
-      </p>
+      {{ $t("hdkb.heroBlockEight") }}
     </div>
   </div>
   <img class="image-block" src="src/assets/projects/hdkb/Innenperspektive_Final-01.png"/>
   <div class="hero-block">
     <div>
-      <p>
-        hallo
-      </p>
+      {{ $t("hdkb.heroBlockNine") }}
     </div>
   </div>
   <div class="full-screen-image"

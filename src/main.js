@@ -3,7 +3,8 @@ import {createRouter, createWebHashHistory} from 'vue-router'
 import App from './App.vue'
 
 import './assets/base.sass'
-import mainPage from "@/views/main-page.vue";
+import cvView from "@/views/cv-view.vue";
+import mainPageView from "@/views/main-page-view.vue";
 import projectsView from "@/views/projects-view.vue";
 import projectIkuView from "@/views/projects/project-iku-view.vue";
 import projectHdkbView from "./views/projects/project-hdkb-view.vue";

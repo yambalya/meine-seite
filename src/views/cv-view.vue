@@ -3,19 +3,18 @@
     <div>
       <div class="left">
         <span style="font-size: 100px">Wilhelm Franke</span>
-        <span style="font-weight: normal">Architektur Bachelor of Arts</span>
+        <span style="font-weight: normal"> {{ $t("CV.mainsite") }} </span>
       </div>
       <img src="src/assets/meiner.jpeg">
     </div>
   </div>
   <div class="main-content">
     <div class="heading">
-      Lebenslauf
+      {{ $t("curriculumVitae") }}
     </div>
     <div class="level">
       <div class="entry">
-        <span class="title">
-          Kontakt
+        <span class="title" v-html="$t('CV.cvContact')">
         </span>
         <span>
           Wilhelm Franke <br>
@@ -33,8 +32,7 @@
       </div>
 
       <div class="entry">
-        <span class="title">
-          Programme
+        <span class="title" v-html="$t('CV.cvProgram')">
         </span>
         <span>ArchiCad</span>
         <span>Vektorworks</span>
@@ -46,23 +44,21 @@
       </div>
 
       <div class="entry">
-        <span class="title">
-          Sprachen
+        <span class="title" v-html="$t('CV.cvLanguages')">
         </span>
-        <span>Deutsch</span>
-        <span>Englisch</span>
-        <span>Latein</span>
+        <span> {{ $t("CV.cvLanguagesOne") }}</span>
+        <span> {{ $t("CV.cvLanguagesTwo") }}</span>
+        <span> {{ $t("CV.cvLanguagesThree") }}</span>
       </div>
     </div>
     <div class="level">
       <div class="entry">
-        <span class="title">
-          Bildungslaufbahn
+        <span class="title" v-html="$t('CV.cvEducational')">
         </span>
         <span>
           <i>2017</i><br>
-          <strong>Allgemeine Hochschulreife</strong>
-          Geschwister-Scholl- Gymnasium Freiberg, Sachsen
+          <strong> {{ $t("CV.cvEducationalOne") }} </strong>
+          {{ $t("CV.cvEducationalTwo") }}
         </span>
         <span>
           <i>30.09.2020</i><br>
@@ -75,7 +71,7 @@
           Vilnius Gediminas Technical University, Litauen
         </span>
         <span>
-          <i>vsl. 30.02.2023</i><br><strong>M.A. Architektur</strong>
+          <i>28.02.2023</i><br><strong>M.A. Architektur</strong>
           Fachhochschule Erfurt University of Applied Science
         </span>
       </div>

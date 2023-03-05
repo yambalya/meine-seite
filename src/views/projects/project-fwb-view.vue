@@ -1,6 +1,6 @@
 <template>
   <div class="top-element full-screen-image"
-       style="background-image: url('src/assets/projects/fwb/Renderning1.png')">
+       style="background-image: url('/src/assets/projects/fwb/Renderning1.png')">
   </div>
   <div class="half">
     <div>
@@ -20,18 +20,18 @@
     <div v-html="$t('fwb.heroBlockDescriptionOne')">
   </div>
   </div>
-  <img class="image-block" src="src/assets/projects/fwb/lageplan-klein1.png"/>
+  <img class="image-block" src="/src/assets/projects/fwb/lageplan-klein1.png"/>
   <div class="hero-block">
     <div>
       {{ $t("fwb.heroBlockOne") }}
     </div>
   </div>
-  <img class="image-block" src="src/assets/projects/fwb/Fassade-neu-Kopie.png"/>
+  <img class="image-block" src="/src/assets/projects/fwb/Fassade-neu-Kopie.png"/>
   <div class="hero-block">
     <div v-html="$t('fwb.heroBlockDescriptionTwo')">
     </div>
   </div>
-  <img class="image-block" src="src/assets/projects/fwb/fassade-final-2-Kopie.png"/>
+  <img class="image-block" src="/src/assets/projects/fwb/fassade-final-2-Kopie.png"/>
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 <template>
   <div class="top-element full-screen-image"
-       style="background-image: url('src/assets/projects/sweets/Außenperspektive.png')">
+       style="background-image: url('/src/assets/projects/sweets/Außenperspektive.png')">
   </div>
   <div class="half">
     <div>
@@ -22,7 +22,7 @@
       {{ $t("sweets.heroBlockOne") }}
     </div>
   </div>
-  <img class="image-block" src="src/assets/projects/sweets/Pikto-Szenarien-.png"/>
+  <img class="image-block" src="/src/assets/projects/sweets/Pikto-Szenarien-.png"/>
   <div class="hero-block">
     <div>
       {{ $t("sweets.heroBlockTwo") }}
@@ -30,19 +30,19 @@
   </div>
   <div class="threely">
     <div>
-      <img src="src/assets/projects/sweets/Projekt-03-Pikto-01.png">
+      <img src="/src/assets/projects/sweets/Projekt-03-Pikto-01.png">
       <span>
         {{ $t("sweets.threelyCaption.1") }}
       </span>
     </div>
     <div>
-      <img src="src/assets/projects/sweets/Projekt-03-Pikto-02.png">
+      <img src="/src/assets/projects/sweets/Projekt-03-Pikto-02.png">
       <span>
         {{ $t("sweets.threelyCaption.2") }}
       </span>
     </div>
     <div>
-      <img src="src/assets/projects/sweets/Projekt-03-Pikto-03.png">
+      <img src="/src/assets/projects/sweets/Projekt-03-Pikto-03.png">
       <span>
         {{ $t("sweets.threelyCaption.3") }}
       </span>
@@ -50,19 +50,19 @@
   </div>
   <div class="threely">
     <div>
-      <img src="src/assets/projects/sweets/Projekt-03-Pikto-04.png">
+      <img src="/src/assets/projects/sweets/Projekt-03-Pikto-04.png">
       <span>
         {{ $t("sweets.threelyCaption.4") }}
       </span>
     </div>
     <div>
-      <img src="src/assets/projects/sweets/Projekt-03-Pikto-05.png">
+      <img src="/src/assets/projects/sweets/Projekt-03-Pikto-05.png">
       <span>
         {{ $t("sweets.threelyCaption.5") }}
       </span>
     </div>
     <div>
-      <img src="src/assets/projects/sweets/Projekt-03-Pikto-06.png">
+      <img src="/src/assets/projects/sweets/Projekt-03-Pikto-06.png">
       <span>
         {{ $t("sweets.threelyCaption.6") }}
       </span>
@@ -73,14 +73,14 @@
       {{ $t("sweets.heroBlockThree") }}
     </div>
   </div>
-  <img class="image-block" src="src/assets/projects/sweets/Lageplan-Final.png"/>
+  <img class="image-block" src="/src/assets/projects/sweets/Lageplan-Final.png"/>
   <div class="hero-block">
     <div>
       {{ $t("sweets.heroBlockFour") }}
     </div>
   </div>
   <div class="full-screen-image"
-       style="background-image: url('src/assets/projects/sweets/Axometrie.png'); margin-top: 0">
+       style="background-image: url('/src/assets/projects/sweets/Axometrie.png'); margin-top: 0">
   </div>
   <div class="hero-block">
     <div>
@@ -90,19 +90,19 @@
   <div class="main-content">
     <Splide :options="{start: 0}">
       <SplideSlide>
-        <img src="src/assets/projects/sweets/Grundriss-01.png" class="splide-slide-image"
+        <img src="/src/assets/projects/sweets/Grundriss-01.png" class="splide-slide-image"
              @click="firstSlider.showImage=0">
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/sweets/Grundriss-02.png" class="splide-slide-image"
+        <img src="/src/assets/projects/sweets/Grundriss-02.png" class="splide-slide-image"
              @click="firstSlider.showImage=1"/>
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/sweets/Grundriss-03.png" class="splide-slide-image"
+        <img src="/src/assets/projects/sweets/Grundriss-03.png" class="splide-slide-image"
              @click="firstSlider.showImage=2">
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/sweets/Grundriss-04.png" class="splide-slide-image"
+        <img src="/src/assets/projects/sweets/Grundriss-04.png" class="splide-slide-image"
              @click="firstSlider.showImage=3"/>
       </SplideSlide>
     </Splide>
@@ -121,11 +121,11 @@
   <div class="main-content">
     <Splide :options="{start: 0}">
       <SplideSlide>
-        <img src="src/assets/projects/sweets/Ansicht-01.png" class="splide-slide-image"
+        <img src="/src/assets/projects/sweets/Ansicht-01.png" class="splide-slide-image"
              @click="firstSlider.showImage=0">
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/sweets/Ansicht-02.png" class="splide-slide-image"
+        <img src="/src/assets/projects/sweets/Ansicht-02.png" class="splide-slide-image"
              @click="firstSlider.showImage=1"/>
       </SplideSlide>
     </Splide>
@@ -135,7 +135,7 @@
       {{ $t("sweets.heroBlockSeven") }}
     </div>
   </div>
-  <img class="image-block" src="src/assets/projects/sweets/1.50-Schnitt.png"/>
+  <img class="image-block" src="/src/assets/projects/sweets/1.50-Schnitt.png"/>
   <div class="hero-block">
     <div>
       {{ $t("sweets.heroBlockEight") }}
@@ -144,15 +144,15 @@
   <div class="main-content">
     <Splide :options="{start: 0}">
       <SplideSlide>
-        <img src="src/assets/projects/sweets/Schnitt-01.png" class="splide-slide-image">
+        <img src="/src/assets/projects/sweets/Schnitt-01.png" class="splide-slide-image">
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/sweets/Schnitt-02.png" class="splide-slide-image">
+        <img src="/src/assets/projects/sweets/Schnitt-02.png" class="splide-slide-image">
       </SplideSlide>
     </Splide>
   </div>
   <div class="full-screen-image"
-       style="background-image: url('src/assets/projects/sweets/Perspektiven-Innen.png'); margin-top: 40px">
+       style="background-image: url('/src/assets/projects/sweets/Perspektiven-Innen.png'); margin-top: 40px">
   </div>
 </template>
 
@@ -168,9 +168,9 @@ export default {
       firstSlider: {
         showImage: false,
         images: [
-          "src/assets/projects/iku/Kellergeschoss%20Grundriss.jpg",
-          "src/assets/projects/iku/Grundriss%20EG.jpg",
-          "src/assets/projects/iku/Grundriss%20OG.jpg"
+          "/src/assets/projects/iku/Kellergeschoss%20Grundriss.jpg",
+          "/src/assets/projects/iku/Grundriss%20EG.jpg",
+          "/src/assets/projects/iku/Grundriss%20OG.jpg"
         ]
       }
     }

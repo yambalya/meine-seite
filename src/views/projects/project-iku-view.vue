@@ -1,6 +1,6 @@
 <template>
   <div class="top-element full-screen-image"
-       style="background-image: url('src/assets/projects/iku/Aussenperspektive-Final-.png')">
+       style="background-image: url('/src/assets/projects/iku/Aussenperspektive-Final-.png')">
   </div>
   <div class="half">
     <div>
@@ -23,7 +23,7 @@
   </div>
   <div class="threely">
     <div>
-      <img src="src/assets/projects/iku/Projekt-01-Pikto-01.png">
+      <img src="/src/assets/projects/iku/Projekt-01-Pikto-01.png">
       <span>
         {{ $t("iku.threelyCaption.1") }}
       </span>
@@ -32,7 +32,7 @@
       +
     </div>
     <div>
-      <img src="src/assets/projects/iku/Projekt-01-Pikto-02.png">
+      <img src="/src/assets/projects/iku/Projekt-01-Pikto-02.png">
       <span>
         {{ $t("iku.threelyCaption.2") }}
       </span>
@@ -41,7 +41,7 @@
       =
     </div>
     <div>
-      <img src="src/assets/projects/iku/Projekt-01-Pikto-03.png">
+      <img src="/src/assets/projects/iku/Projekt-01-Pikto-03.png">
       <span>
        {{ $t("iku.threelyCaption.3") }}
       </span>
@@ -52,7 +52,7 @@
       {{ $t("iku.heroBlockTwo") }}
     </div>
   </div>
-  <img class="image-block" src="src/assets/projects/iku/LAGEPLAN FINAL.jpg"/>
+  <img class="image-block" src="/src/assets/projects/iku/LAGEPLANFINAL.jpg"/>
   <div class="hero-block">
     <div v-html="$t('iku.heroBlockDescriptionOne')">
     </div>
@@ -60,14 +60,14 @@
   <div class="main-content">
     <Splide :options="{start: 1}">
       <SplideSlide>
-        <img src="src/assets/projects/iku/Grundriss-KG.png" class="splide-slide-image" @click="firstSlider.showImage=0">
+        <img src="/src/assets/projects/iku/Grundriss-KG.png" class="splide-slide-image" @click="firstSlider.showImage=0">
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/iku/Grundriss-EG.png" class="splide-slide-image"
+        <img src="/src/assets/projects/iku/Grundriss-EG.png" class="splide-slide-image"
              @click="firstSlider.showImage=1"/>
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/iku/Grundriss-OG.png" class="splide-slide-image"
+        <img src="/src/assets/projects/iku/Grundriss-OG.png" class="splide-slide-image"
              @click="firstSlider.showImage=2">
       </SplideSlide>
     </Splide>
@@ -85,10 +85,10 @@
   <div class="main-content">
     <Splide>
       <SplideSlide>
-        <img src="src/assets/projects/iku/Ansicht-Nord.png" class="splide-slide-image">
+        <img src="/src/assets/projects/iku/Ansicht-Nord.png" class="splide-slide-image">
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/iku/Ansicht%20Ost.jpg" class="splide-slide-image">
+        <img src="/src/assets/projects/iku/AnsichtOst.jpg" class="splide-slide-image">
       </SplideSlide>
     </Splide>
     <vue-easy-lightbox
@@ -105,13 +105,13 @@
   <div class="main-content">
     <Splide :options="{start: 1}">
       <SplideSlide>
-        <img src="src/assets/projects/iku/laengschnitt.jpg" class="splide-slide-image">
+        <img src="/src/assets/projects/iku/laengschnitt.jpg" class="splide-slide-image">
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/iku/Schnitt%20Quer.jpg" class="splide-slide-image">
+        <img src="/src/assets/projects/iku/SchnittQuer.jpg" class="splide-slide-image">
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/iku/1-50%20Schnitt.jpg" class="splide-slide-image">
+        <img src="/src/assets/projects/iku/1-50Schnitt.jpg" class="splide-slide-image">
       </SplideSlide>
     </Splide>
   </div>
@@ -120,14 +120,14 @@
       {{ $t("iku.heroBlockThree") }}
     </div>
   </div>
-  <img class="image-block" src="src/assets/projects/iku/Parkcafe.png"/>
+  <img class="image-block" src="/src/assets/projects/iku/Parkcafe.png"/>
   <div class="hero-block">
     <div>
       {{ $t("iku.heroBlockFour") }}
     </div>
   </div>
   <div class="full-screen-image"
-       style="background-image: url('src/assets/projects/iku/Modell_Foto_2.png'); margin-top: 40px">
+       style="background-image: url('/src/assets/projects/iku/Modell_Foto_2.png'); margin-top: 40px">
   </div>
 </template>
 <script>
@@ -142,24 +142,24 @@ export default {
       firstSlider: {
         showImage: false,
         images: [
-          "src/assets/projects/iku/Kellergeschoss%20Grundriss.jpg",
-          "src/assets/projects/iku/Grundriss%20EG.jpg",
-          "src/assets/projects/iku/Grundriss%20OG.jpg"
+          "/src/assets/projects/iku/Kellergeschoss%20Grundriss.jpg",
+          "/src/assets/projects/iku/Grundriss%20EG.jpg",
+          "/src/assets/projects/iku/Grundriss%20OG.jpg"
         ]
       },
       secondSlider: {
         showImage: false,
         images: [
-          "src/assets/projects/iku/Kellergeschoss%20Grundriss.jpg",
-          "src/assets/projects/iku/Grundriss%20EG.jpg"
+          "/src/assets/projects/iku/Kellergeschoss%20Grundriss.jpg",
+          "/src/assets/projects/iku/Grundriss%20EG.jpg"
         ]
       },
       thirdSlider: {
         showImage: false,
         images: [
-          "src/assets/projects/iku/Kellergeschoss%20Grundriss.jpg",
-          "src/assets/projects/iku/Grundriss%20EG.jpg",
-          "src/assets/projects/iku/Grundriss%20OG.jpg"
+          "/src/assets/projects/iku/Kellergeschoss%20Grundriss.jpg",
+          "/src/assets/projects/iku/Grundriss%20EG.jpg",
+          "/src/assets/projects/iku/Grundriss%20OG.jpg"
         ]
       }
     }

@@ -5,7 +5,7 @@
   <div class="half">
     <div>
       <span class="giant">
-        Ein Kreative Campus
+        {{ $t("hdkb.giant") }}
       </span>
     </div>
     <div>

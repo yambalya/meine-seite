@@ -23,17 +23,40 @@ nav.header
   text-align: center
   z-index: 99
 
-nav.header > .burger
-  position: fixed
-  top: 5px
-  left: 5px
+nav.header
+  .burger
+    position: fixed
+    top: 5px
+    left: 5px
+  .title
+    color: black
+    font-weight: bold
+    font-size: 36px
+    padding: 10px
+    display: inline-block
+    opacity: 1
+    transition: 0.3s
 
-nav.header > .title
-  color: black
-  font-weight: bold
-  font-size: 36px
-  padding: 10px
-  display: inline-block
+    &.is-gone
+      transform: translateX(-100px)
+      opacity: 0
+
+
+  .translationChooser
+    position: fixed
+    top: 17px
+    right: 20px
+    cursor: pointer
+    font-size: 24px
+
+    span
+      opacity: 0.3
+
+    span.active
+      opacity: 1
+
+    span:hover
+      opacity: 0.9
 
 nav.nav-fullscreen
   position: fixed

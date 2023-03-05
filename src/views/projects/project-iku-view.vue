@@ -12,28 +12,7 @@
       <span class="title">
        {{ $t("iku.title") }}
       </span>
-      <p>
-        Bachelorthesis SOSE 2020<br>
-        Bauen im Bestand<br>
-        Wilhelm Franke
-      </p>
-      <p>
-        Professorin Stephanie Kaindl<br>
-        Professor Michael Mann
-      </p>
-      <p>
-        Der Entwurf bezieht seine Identität aus dem Ort Bad Wilsnack mit seiner ländlich geprägten
-        Bebauungsstruktur. Die Gebäudeform spielt mit Analogien aus der Umgebung und transformiert
-        diese in eine eigene formale und funktionale Aussage. Als Bild entsteht ein vereinendes Gebäude,
-        welches der Mittelpunkt der Kultur im Ort sein will und dieses auch nach außen hin ausstrahlt.
-      </p>
-      <p>
-        Drei unterschiedliche Gebäudekubaturen stehen für die ländlich zergliederte Bebauung. Diese
-        positionieren sich unabhängig voneinander auf dem Bestandssockel. Jede Kubatur bekommt dabei
-        eine räumliche Funktion zugesprochen. Im Obergeschoss werden diese unabhängigen Gebäude miteinander vereint und
-        bilden ein gesamtes Ensemble. Als Bildsprache entsteht ein Gebäude, welches die Gemeinde, die Kultur und die
-        dörflichen Strukturen unter einem Dach vereint und diese verschiedenen Faktoren und Interessen in seinem
-        Erscheinungsbild als Einheit wiederspiegelt. Kurzum: Es entsteht ein Dorf im Dorf.
+      <p v-html="$t('iku.projectDescription')">
       </p>
     </div>
   </div>
@@ -46,7 +25,7 @@
     <div>
       <img src="src/assets/projects/iku/Projekt-01-Pikto-01.png">
       <span>
-        Setzten der 3 Kubatur auf die bestands Platte.
+        {{ $t("iku.threelyCaption.1") }}
       </span>
     </div>
     <div>
@@ -75,20 +54,7 @@
   </div>
   <img class="image-block" src="src/assets/projects/iku/LAGEPLAN FINAL.jpg"/>
   <div class="hero-block">
-    <div>
-      <p>
-        Das Gebäude besitz zwei ebenbürtige Eingänge, welche jeweils leicht nach innen eingerückt sind und somit eine
-        klare Eingangsgeste bilden.
-      </p>
-      <p>
-        Der erste Eingang befindet sich zur Kirche hin orientiert. Man erreicht ihn direkt über die Große Straße.
-        Der zweite Eingang befindet sich auf der Seite des Parks. Des weiteren kann man das Kulturhaus auch direkt über
-        den historischen Bogengang aus dem Inneren der Wunderblutkirche erreichen. Das Kulturhaus besitzt eine
-        großzügige, einläufige Treppe, die das gesamte Gebäude erschließt.
-      </p>
-      <p>
-        Durch eine außenliegende Rampe und einen Fahrstuhl im Inneren ist das Gebäude vollständig barrierefrei nutzbar.
-      </p>
+    <div v-html="$t('iku.heroBlockDescriptionOne')">
     </div>
   </div>
   <div class="main-content">

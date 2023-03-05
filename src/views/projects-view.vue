@@ -2,7 +2,7 @@
   <div class="wrapper">
     <project-thumbnail
         title="Sweets"
-        subtitle="Ehemalige Schokoladenfabrik Greußen"
+        :subtitle="$t('ProjectViews.subtitleOne')"
         base-image="src/assets/Pikto-Projekt-04.png"
         hover-image="src/assets/Projekt-04-perspektive.jpg"
         position="left"

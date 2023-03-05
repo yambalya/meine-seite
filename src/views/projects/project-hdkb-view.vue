@@ -1,6 +1,6 @@
 <template>
   <div class="top-element full-screen-image"
-       style="background-image: url('src/assets/projects/hdkb/Aussenperspektive-01-Final.png')">
+       style="background-image: url('/src/assets/projects/hdkb/Aussenperspektive-01-Final.png')">
   </div>
   <div class="half">
     <div>
@@ -22,19 +22,19 @@
   </div>
   <div class="threely">
     <div>
-      <img src="src/assets/projects/hdkb/Projekt-02-Pikto-04.png">
+      <img src="/src/assets/projects/hdkb/Projekt-02-Pikto-04.png">
       <span>
         {{ $t("hdkb.threelyCaption.1") }}
       </span>
     </div>
     <div>
-      <img src="src/assets/projects/hdkb/Projekt-02-Pikto-05.png">
+      <img src="/src/assets/projects/hdkb/Projekt-02-Pikto-05.png">
       <span>
         {{ $t("hdkb.threelyCaption.2") }}
       </span>
     </div>
     <div>
-      <img src="src/assets/projects/hdkb/Projekt-02-Pikto-06.png">
+      <img src="/src/assets/projects/hdkb/Projekt-02-Pikto-06.png">
       <span>
         {{ $t("hdkb.threelyCaption.3") }}
       </span>
@@ -42,19 +42,19 @@
   </div>
   <div class="threely">
     <div>
-      <img src="src/assets/projects/hdkb/Projekt-02-Pikto-07.png">
+      <img src="/src/assets/projects/hdkb/Projekt-02-Pikto-07.png">
       <span>
         {{ $t("hdkb.threelyCaption.4") }}
       </span>
     </div>
     <div>
-      <img src="src/assets/projects/hdkb/Projekt-02-Pikto-08.png">
+      <img src="/src/assets/projects/hdkb/Projekt-02-Pikto-08.png">
       <span>
         {{ $t("hdkb.threelyCaption.5") }}
       </span>
     </div>
     <div>
-      <img src="src/assets/projects/hdkb/Projekt-02-Pikto-09.png">
+      <img src="/src/assets/projects/hdkb/Projekt-02-Pikto-09.png">
       <span>
         {{ $t("hdkb.threelyCaption.6") }}
       </span>
@@ -67,19 +67,19 @@
   </div>
   <div class="threely">
     <div>
-      <img src="src/assets/projects/hdkb/Projekt-02-Pikto-01.png">
+      <img src="/src/assets/projects/hdkb/Projekt-02-Pikto-01.png">
       <span>
         {{ $t("hdkb.threelyCaption.7") }}
       </span>
     </div>
     <div>
-      <img src="src/assets/projects/hdkb/Projekt-02-Pikto-02.png">
+      <img src="/src/assets/projects/hdkb/Projekt-02-Pikto-02.png">
       <span>
         {{ $t("hdkb.threelyCaption.8") }}
       </span>
     </div>
     <div>
-      <img src="src/assets/projects/hdkb/Projekt-02-Pikto-03.png">
+      <img src="/src/assets/projects/hdkb/Projekt-02-Pikto-03.png">
       <span>
         {{ $t("hdkb.threelyCaption.9") }}
       </span>
@@ -90,7 +90,7 @@
       {{ $t("hdkb.heroBlockThree") }}
     </div>
   </div>
-  <img class="image-block" src="src/assets/projects/hdkb/Lageplan_1-500-Final.png"/>
+  <img class="image-block" src="/src/assets/projects/hdkb/Lageplan_1-500-Final.png"/>
   <div class="hero-block">
     <div>
       {{ $t("hdkb.heroBlockFour") }}
@@ -99,39 +99,39 @@
   <div class="main-content">
     <Splide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Axo-Staedtebau-Final.png" class="splide-slide-image">
+        <img src="/src/assets/projects/hdkb/Axo-Staedtebau-Final.png" class="splide-slide-image">
         <span class="image-caption">{{ $t("hdkb.splideCaption.1") }}</span>
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Projekt-02-Pikto-10.png" class="splide-slide-image"/>
+        <img src="/src/assets/projects/hdkb/Projekt-02-Pikto-10.png" class="splide-slide-image"/>
         <span class="image-caption">{{ $t("hdkb.splideCaption.2") }}</span>
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Projekt-02-Pikto-11.png" class="splide-slide-image"/>
+        <img src="/src/assets/projects/hdkb/Projekt-02-Pikto-11.png" class="splide-slide-image"/>
         <span class="image-caption">{{ $t("hdkb.splideCaption.3") }}</span>
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Projekt-02-Pikto-12.png" class="splide-slide-image"/>
+        <img src="/src/assets/projects/hdkb/Projekt-02-Pikto-12.png" class="splide-slide-image"/>
         <span class="image-caption">{{ $t("hdkb.splideCaption.4") }}</span>
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Projekt-02-Pikto-13.png" class="splide-slide-image"/>
+        <img src="/src/assets/projects/hdkb/Projekt-02-Pikto-13.png" class="splide-slide-image"/>
         <span class="image-caption">{{ $t("hdkb.splideCaption.5") }}</span>
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Projekt-02-Pikto-14.png" class="splide-slide-image"/>
+        <img src="/src/assets/projects/hdkb/Projekt-02-Pikto-14.png" class="splide-slide-image"/>
         <span class="image-caption">{{ $t("hdkb.splideCaption.6") }}</span>
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Projekt-02-Pikto-15.png" class="splide-slide-image"/>
+        <img src="/src/assets/projects/hdkb/Projekt-02-Pikto-15.png" class="splide-slide-image"/>
         <span class="image-caption">{{ $t("hdkb.splideCaption.7") }}</span>
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Projekt-02-Pikto-16.png" class="splide-slide-image"/>
+        <img src="/src/assets/projects/hdkb/Projekt-02-Pikto-16.png" class="splide-slide-image"/>
         <span class="image-caption">{{ $t("hdkb.splideCaption.8") }}</span>
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Axo-EG.png" class="splide-slide-image"/>
+        <img src="/src/assets/projects/hdkb/Axo-EG.png" class="splide-slide-image"/>
         <span class="image-caption">{{ $t("hdkb.splideCaption.9") }}</span>
       </SplideSlide>
     </Splide>
@@ -142,7 +142,7 @@
     </div>
   </div>
   <div class="full-screen-image"
-       style="background-image: url('src/assets/projects/hdkb/Aussenperspektive-02-Final.png'); margin-top: 0">
+       style="background-image: url('/src/assets/projects/hdkb/Aussenperspektive-02-Final.png'); margin-top: 0">
   </div>
   <div class="hero-block">
     <div>
@@ -152,35 +152,35 @@
   <div class="main-content">
     <Splide :options="{start: 1}">
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Grundriss-EG.png" class="splide-slide-image"
+        <img src="/src/assets/projects/hdkb/Grundriss-EG.png" class="splide-slide-image"
              @click="firstSlider.showImage=1">
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Grundriss-1OG.png" class="splide-slide-image"
+        <img src="/src/assets/projects/hdkb/Grundriss-1OG.png" class="splide-slide-image"
              @click="firstSlider.showImage=2"/>
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Grundriss-2OG.png" class="splide-slide-image"
+        <img src="/src/assets/projects/hdkb/Grundriss-2OG.png" class="splide-slide-image"
              @click="firstSlider.showImage=3">
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Grundriss-3OG.png" class="splide-slide-image"
+        <img src="/src/assets/projects/hdkb/Grundriss-3OG.png" class="splide-slide-image"
              @click="firstSlider.showImage=4"/>
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Grundriss-4OG.png" class="splide-slide-image"
+        <img src="/src/assets/projects/hdkb/Grundriss-4OG.png" class="splide-slide-image"
              @click="firstSlider.showImage=5">
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Grundriss-5OG.png" class="splide-slide-image"
+        <img src="/src/assets/projects/hdkb/Grundriss-5OG.png" class="splide-slide-image"
              @click="firstSlider.showImage=6"/>
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Grundriss-6OG.png" class="splide-slide-image"
+        <img src="/src/assets/projects/hdkb/Grundriss-6OG.png" class="splide-slide-image"
              @click="firstSlider.showImage=7">
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Grundriss-7OG.png" class="splide-slide-image"
+        <img src="/src/assets/projects/hdkb/Grundriss-7OG.png" class="splide-slide-image"
              @click="firstSlider.showImage=8"/>
       </SplideSlide>
     </Splide>
@@ -199,13 +199,13 @@
   <div class="main-content">
     <Splide :options="{start: 1}">
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Ansicht_Laengs_1_200.png" class="splide-slide-image">
+        <img src="/src/assets/projects/hdkb/Ansicht_Laengs_1_200.png" class="splide-slide-image">
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Schnitt_Laengs_1_200.png" class="splide-slide-image"/>
+        <img src="/src/assets/projects/hdkb/Schnitt_Laengs_1_200.png" class="splide-slide-image"/>
       </SplideSlide>
       <SplideSlide>
-        <img src="src/assets/projects/hdkb/Ansicht_Quer_1_200.png" class="splide-slide-image">
+        <img src="/src/assets/projects/hdkb/Ansicht_Quer_1_200.png" class="splide-slide-image">
       </SplideSlide>
     </Splide>
   </div>
@@ -213,20 +213,20 @@
     <div v-html="$t('hdkb.heroBlockDescriptionOne')">
     </div>
   </div>
-  <img class="image-block" src="src/assets/projects/hdkb/1_50-Schnitt_Ansicht.png"/>
+  <img class="image-block" src="/src/assets/projects/hdkb/1_50-Schnitt_Ansicht.png"/>
   <div class="hero-block">
     <div>
       {{ $t("hdkb.heroBlockEight") }}
     </div>
   </div>
-  <img class="image-block" src="src/assets/projects/hdkb/Innenperspektive_Final-01.png"/>
+  <img class="image-block" src="/src/assets/projects/hdkb/Innenperspektive_Final-01.png"/>
   <div class="hero-block">
     <div>
       {{ $t("hdkb.heroBlockNine") }}
     </div>
   </div>
   <div class="full-screen-image"
-       style="background-image: url('src/assets/projects/hdkb/500-Bild-2.png'); margin-top: 40px">
+       style="background-image: url('/src/assets/projects/hdkb/500-Bild-2.png'); margin-top: 40px">
   </div>
 </template>
 
@@ -242,9 +242,9 @@ export default {
       firstSlider: {
         showImage: false,
         images: [
-          "src/assets/projects/iku/Kellergeschoss%20Grundriss.jpg",
-          "src/assets/projects/iku/Grundriss%20EG.jpg",
-          "src/assets/projects/iku/Grundriss%20OG.jpg"
+          "/src/assets/projects/iku/Kellergeschoss%20Grundriss.jpg",
+          "/src/assets/projects/iku/Grundriss%20EG.jpg",
+          "/src/assets/projects/iku/Grundriss%20OG.jpg"
         ]
       }
     }

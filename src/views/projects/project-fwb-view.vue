@@ -1,8 +1,6 @@
-<script setup>
-import rendering from '@/assets/projects/fwb/rendering.png'
-</script>
 <template>
-  <div class="top-element full-screen-image">
+  <div class="top-element full-screen-image"
+       style="background-image: url('/src/assets/projects/fwb/Renderning1.png')">
   </div>
   <div class="half">
     <div>
@@ -43,9 +41,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.top-element
-  background-image: url('@/assets/projects/fwb/rendering.png')
-
 .hero-block
   background-color: #c20e1b
 

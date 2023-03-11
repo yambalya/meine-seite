@@ -22,12 +22,7 @@
           09599 Freiberg
         </span>
         <span>
-          Eugen-Richter-Straße  <br>
-          99085 Erfurt
-        </span>
-        <span>
           wilhelm_arc@outlook.de <br>
-          +49 15237889573
         </span>
       </div>
 

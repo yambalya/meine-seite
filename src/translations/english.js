@@ -205,7 +205,7 @@ export default {
             "The solitaire cubature gets a kink on the 2nd floor, the building form strengthens the public relation of the 1st floor, " +
             "forms an entrance gesture, creates visual relationships and defines the distribution of uses within the building.",
         splideCaption: {
-            1:"Urban planning isometry",
+            1:"Urban planning Isometry",
             2:"Deriving the ground floor from the property boundaries",
             3:"Creating the urban panel",
             4:"creating access to the plate",

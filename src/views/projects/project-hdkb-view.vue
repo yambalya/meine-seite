@@ -1,6 +1,10 @@
+<script setup>
+import aussen1 from '@/assets/projects/hdkb/Aussenperspektive-01-Final.png'
+import aussen2 from '@/assets/projects/hdkb/Aussenperspektive-02-Final.png'
+import finalImg from '@/assets/projects/hdkb/500-Bild-2.png'
+ </script>
 <template>
-  <div class="top-element full-screen-image"
-       style="background-image: url('/src/assets/projects/hdkb/Aussenperspektive-01-Final.png')">
+  <div class="top-element full-screen-image" :style="{backgroundImage: `url(${aussen1})`}">
   </div>
   <div class="half">
     <div>
@@ -142,7 +146,7 @@
     </div>
   </div>
   <div class="full-screen-image"
-       style="background-image: url('/src/assets/projects/hdkb/Aussenperspektive-02-Final.png'); margin-top: 0">
+       :style="{backgroundImage: `url(${aussen2})`, marginTop: 0}">
   </div>
   <div class="hero-block">
     <div>
@@ -226,7 +230,7 @@
     </div>
   </div>
   <div class="full-screen-image"
-       style="background-image: url('/src/assets/projects/hdkb/500-Bild-2.png'); margin-top: 40px">
+       :style="{backgroundImage: `url(${finalImg})`, marginTop: '40px'}">
   </div>
 </template>
 
@@ -242,9 +246,9 @@ export default {
       firstSlider: {
         showImage: false,
         images: [
-          "/src/assets/projects/iku/Kellergeschoss%20Grundriss.jpg",
-          "/src/assets/projects/iku/Grundriss%20EG.jpg",
-          "/src/assets/projects/iku/Grundriss%20OG.jpg"
+          "/src/assets/projects/iku/KellergeschossGrundriss.jpg",
+          "/src/assets/projects/iku/Grundriss-EG.jpg",
+          "/src/assets/projects/iku/Grundriss-OG.jpg"
         ]
       }
     }
@@ -253,6 +257,9 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+.top-element
+  background-image: url('@/assets/projects/hdkb/Aussenperspektive-01-Final.png')
+
 .hero-block
   background-color: #6db387
 

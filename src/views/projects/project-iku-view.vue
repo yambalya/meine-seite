@@ -1,6 +1,5 @@
 <template>
-  <div class="top-element full-screen-image"
-       style="background-image: url('/src/assets/projects/iku/Aussenperspektive-Final-.png')">
+  <div class="top-element full-screen-image">
   </div>
   <div class="half">
     <div>
@@ -126,8 +125,7 @@
       {{ $t("iku.heroBlockFour") }}
     </div>
   </div>
-  <div class="full-screen-image"
-       style="background-image: url('/src/assets/projects/iku/Modell_Foto_2.png'); margin-top: 40px">
+  <div class="full-screen-image bottom-element">
   </div>
 </template>
 <script>
@@ -168,6 +166,13 @@ export default {
 </script>
 
 <style lang="sass" scoped>
+.top-element
+  background-image: url('@/assets/projects/iku/Aussenperspektive-Final-.png')
+
+.bottom-element
+  background-image: url('@/assets/projects/iku/Modell_Foto_2.png')
+  margin-top: 40px
+
 .hero-block
   background-color: #ccccd1
 

@@ -14,6 +14,7 @@ export default {
     CV: {
         mainsite:"Master of Arts Architektur",
         cvContact:"Kontakt",
+        cvContactOne:"Erfurt, Deutschland",
         cvProgram: "Programme",
         cvLanguages: "Sprachen",
         cvLanguagesOne: "Deutsch",
@@ -22,7 +23,19 @@ export default {
         cvEducational:"Bildungslaufbahn",
         cvEducationalOne:"Allgemeine Hochschulreife",
         cvEducationalTwo:"Geschwister-Scholl- Gymnasium Freiberg, Sachsen",
-        cvEducationalThree:"",
+        cvEducationalThree:"Vilnius Gediminas Technical University, Litauen",
+        cvEducationalHeaderOne:"B.A. Architektur",
+        cvEducationalHeaderTwo:"Erasmus Semester",
+        cvEducationalHeaderThree:"M.A. Architektur",
+        cvWorkOne:"Arbeitserfahrung",
+        cvWorkTwo:"Praktikum",
+        cvWorkThree:"Baustellenpraktikum",
+        cvWorkFour:"STELLWERK architekten Dresden",
+        cvWorkFive:"Büropraktikum",
+        cvWorkSix:"Tutorentätigkeit",
+        cvWorkSeven:"Professur für Entwerfen und Bauen im Bestand",
+        cvWorkEight:"Wissenschaftlicher Mitarbeiter Fachhochschule Erfurt",
+        cvWorkNine:"Professur für Entwurf und Baukonstruktionslehre",
     },
 
     sweets:{

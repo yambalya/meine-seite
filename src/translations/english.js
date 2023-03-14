@@ -14,6 +14,7 @@ export default {
     CV: {
         mainsite:"Master of Arts Architecture",
         cvContact:"Contact",
+        cvContactOne:"Erfurt, Germany",
         cvProgram: "Programs",
         cvLanguages: "Languages",
         cvLanguagesOne: "German",
@@ -22,8 +23,19 @@ export default {
         cvEducational:"Educational path",
         cvEducationalOne:"General University Entrance Qualification",
         cvEducationalTwo:"Geschwister-Scholl-Gymnasium Freiberg, Saxony",
-        cvEducationalThree:"",
-
+        cvEducationalThree:"Vilnius Gediminas Technical University, Lithuania",
+        cvEducationalHeaderOne:"Bachelor architecture",
+        cvEducationalHeaderTwo:"Semester abroad",
+        cvEducationalHeaderThree:"Master architecture",
+        cvWorkOne:"Work experience",
+        cvWorkTwo:"Internship",
+        cvWorkThree:"Construction site internship",
+        cvWorkFour:"STELLWERK architects Dresden",
+        cvWorkFive:"Architecture office internship",
+        cvWorkSix:"Tutoring",
+        cvWorkSeven:"Professorship for designe and building in historical context",
+        cvWorkEight:"Research assistant at the University of Applied Sciences Erfurt",
+        cvWorkNine:"Professorship for design and construction theory",
     },
 
     sweets:{

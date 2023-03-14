@@ -18,8 +18,7 @@
         </span>
         <span>
           Wilhelm Franke <br>
-          10.09.1998  <br>
-          09599 Freiberg
+          {{ $t("CV.cvContactOne") }}<br>
         </span>
         <span>
           wilhelm_arc@outlook.de <br>
@@ -57,16 +56,17 @@
         </span>
         <span>
           <i>30.09.2020</i><br>
-          <strong>B.A. Architektur</strong>
+          <strong>{{ $t("CV.cvEducationalHeaderOne") }}</strong>
           Fachhochschule Erfurt University of Applied Science
         </span>
         <span>
           <i>03.02.2022-23.06.2022</i><br>
-          <strong>Erasmus Semester</strong>
-          Vilnius Gediminas Technical University, Litauen
+          <strong>{{ $t("CV.cvEducationalHeaderTwo") }}</strong>
+          {{ $t("CV.cvEducationalThree") }}
         </span>
         <span>
-          <i>28.02.2023</i><br><strong>M.A. Architektur</strong>
+          <i>28.02.2023</i><br>
+          <strong>{{ $t("CV.cvEducationalHeaderThree") }}</strong>
           Fachhochschule Erfurt University of Applied Science
         </span>
       </div>
@@ -74,32 +74,32 @@
     <div class="level">
       <div class="entry">
         <span class="title">
-          Arbeitserfahrung
+          {{ $t("CV.cvWorkOne") }}
         </span>
         <span>
           <i>2018</i><br>
-          <strong>Praktikum</strong>
+          <strong>{{ $t("CV.cvWorkTwo") }}</strong>
           Landschaftsgestaltung Straßen-, Tief und Wasserbau GmbH Freiberg<br>
-          <i>Baustellenpraktikum</i>
+          <i>{{ $t("CV.cvWorkThree") }}</i>
         </span>
         <span>
           <i>2019 - 2020</i> <br>
-          <strong>Praktikum</strong>
-          STELLWERK architekten Dresden<br>
-          <i>Büropraktikum</i>
+          <strong>{{ $t("CV.cvWorkTwo") }}</strong>
+          {{ $t("CV.cvWorkFour") }}<br>
+          <i>{{ $t("CV.cvWorkFive") }}</i>
         </span>
         <span>
           <i>2020 - 2023</i> <br>
-          <strong>Tutorentätigkeit</strong>
+          <strong>{{ $t("CV.cvWorkSix") }}</strong>
           <i>Prof. Stephanie Kaindl </i> <br>
-          <i>Professur für Entwerfen und Bauen im Bestand</i> <br> Wissenschaftlicher Mitarbeiter Fachhochschule Erfurt
+          <i>{{ $t("CV.cvWorkSeven") }}</i> <br> {{ $t("CV.cvWorkEight") }}
         </span>
         <span>
           <i>2021</i><br>
-          <strong>Tutorentätigkeit</strong>
+          <strong>{{ $t("CV.cvWorkSix") }}</strong>
           <i>Prof. Oliver Sachse</i> <br>
-          <i>Professur für Entwurf und Baukonstruktionslehre</i> <br>
-          Wissenschaftlicher Mitarbeiter Fachhochschule Erfurt
+          <i>{{ $t("CV.cvWorkNine") }}</i> <br>
+          {{ $t("CV.cvWorkEight") }}
         </span>
       </div>
     </div>

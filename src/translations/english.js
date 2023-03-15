@@ -108,7 +108,7 @@ export default {
 
     fwb:{
         giant:
-            "Adjust and\n" +
+            "Adapt and\n" +
             "Stand out",
         title:
             "Facade competition for a residential high-rise with office use\n" +
@@ -127,10 +127,10 @@ export default {
             "Shops and offices are to be found on the lower 5 floors. Above that there are apartments.\n" +
             "</p>\n" +
             "<p>\n" +
-            "The property is located close to a freeway entrance in Berlin. It is framed on two sides by two " +
+            "The property is located close to a Highway entrance in Berlin. It is framed on two sides by two " +
             "residential building blocks. The building is designed as an ensemble of two individual bodies, " +
             "a 5-storey southern volume and a 16-storey northern tower. Both parts of the building are accessed " +
-            "and evacuated via a central security staircase. The storey heights are 4.50 m on the ground floor and " +
+            "and evacuated through a central security staircase. The storey heights are 4.50 m on the ground floor and " +
             "3.50 m on the upper floors. The floor plans are designed in such a way that residential use as apartments " +
             "as well as office use is possible."+
             "</p>",
@@ -138,7 +138,7 @@ export default {
             "The ground floor was raised to a clear ceiling height of 6 meters. As a result, the intended use of shops on " +
             "the ground floor takes on a representative role. On the sides facing the street, the facade was pushed in by " +
             "4 meters, creating arcades that strengthen the public impact of the ground floor. Another aspect of raising " +
-            "the ground floor is that it makes the building stand on table legs and gives the ground floor a distinct position."+
+            "the ground floor is that it makes the building stand on \"table legs\" and gives the ground floor a distinct position."+
             "</p>\n" +
             "<p>\n" +
             "Offices are located above, which are divided by an element facade. These elements get larger and larger as you go up. " +

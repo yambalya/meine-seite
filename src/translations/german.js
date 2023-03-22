@@ -312,7 +312,7 @@ export default {
         },
         heroBlockTwo:
             "Das Gebäude setzt sich aus drei einzelnen Gebäuden verschiedener Größe zusammen. Diese werden " +
-            "durch das Obergeschoss, welches das gesamte Baugrundstück ausfüllt, vereint. Jedes Gebäude besitzt ein Oberlicht",
+            "durch das Obergeschoss, welches das gesamte Baugrundstück ausfüllt, vereint. Jedes Gebäude besitzt ein Oberlicht.",
         heroBlockDescriptionOne: "<p>" +
             "Das Gebäude besitzt zwei ebenbürtige Eingänge, welche jeweils leicht nach innen eingerückt sind und somit eine " +
             "klare Eingangsgeste bilden." +
@@ -331,15 +331,6 @@ export default {
             "kleines Parkcafé im Gebäude Platz finden, welches Kurgäste sowie Pilgerreisende zum Verweilen animieren wird.\n" +
             "Zusammengefasst entsteht somit ein neues Zentrum am alten Mittelpunkt Bad Wilsnacks, das die gesamte\n" +
             "Bewohnerschaft vereint und auch ein neuer kultureller Mittelpunkt für die gesamte Region wird.\n" +
-            "</p><p>" +
-            "Der Entwurf bezieht seine Identität aus dem Ort Bad Wilsnack mit seiner ländlich geprägten\n" +
-            "Bebauungsstruktur. Die Gebäudeform spielt mit Analogien aus der Umgebung und transformiert\n" +
-            "diese in eine eigene formale und funktionale Aussage. Als Bild entsteht ein vereinendes Gebäude,\n" +
-            "welches der Mittelpunkt der Kultur im Ort sein will und dieses auch nach außen hin ausstrahlt.\n" +
-            "Drei unterschiedliche Gebäudekubaturen stehen für die ländlich zergliederte Bebauung. Diese\n" +
-            "positionieren sich unabhängig voneinander auf dem Bestandssockel. Jede Kubatur bekommt dabei\n" +
-            "eine räumliche Funktion zugesprochen. Im Obergeschoss werden diese unabhängigen Gebäude\n" +
-            "miteinander vereint und bilden ein gesamtes Ensemble.\n" +
             "</p>",
         heroBlockDescriptionThree: "<p>\n" +
             "Die einzelnen Gebäudekubaturen bekommen jeweils eigene Raumfunktionen zugesprochen.\n" +

@@ -50,13 +50,8 @@
         <span class="title" v-html="$t('CV.cvEducational')">
         </span>
         <span>
-          <i>2017</i><br>
-          <strong> {{ $t("CV.cvEducationalOne") }} </strong>
-          {{ $t("CV.cvEducationalTwo") }}
-        </span>
-        <span>
-          <i>30.09.2020</i><br>
-          <strong>{{ $t("CV.cvEducationalHeaderOne") }}</strong>
+          <i>28.02.2023</i><br>
+          <strong>{{ $t("CV.cvEducationalHeaderThree") }}</strong>
           Fachhochschule Erfurt University of Applied Science
         </span>
         <span>
@@ -65,9 +60,14 @@
           {{ $t("CV.cvEducationalThree") }}
         </span>
         <span>
-          <i>28.02.2023</i><br>
-          <strong>{{ $t("CV.cvEducationalHeaderThree") }}</strong>
+          <i>30.09.2020</i><br>
+          <strong>{{ $t("CV.cvEducationalHeaderOne") }}</strong>
           Fachhochschule Erfurt University of Applied Science
+        </span>
+        <span>
+          <i>2017</i><br>
+          <strong> {{ $t("CV.cvEducationalOne") }} </strong>
+          {{ $t("CV.cvEducationalTwo") }}
         </span>
       </div>
     </div>
@@ -75,18 +75,6 @@
       <div class="entry">
         <span class="title">
           {{ $t("CV.cvWorkOne") }}
-        </span>
-        <span>
-          <i>2018</i><br>
-          <strong>{{ $t("CV.cvWorkTwo") }}</strong>
-          Landschaftsgestaltung Straßen-, Tief und Wasserbau GmbH Freiberg<br>
-          <i>{{ $t("CV.cvWorkThree") }}</i>
-        </span>
-        <span>
-          <i>2019 - 2020</i> <br>
-          <strong>{{ $t("CV.cvWorkTwo") }}</strong>
-          {{ $t("CV.cvWorkFour") }}<br>
-          <i>{{ $t("CV.cvWorkFive") }}</i>
         </span>
         <span>
           <i>2020 - 2023</i> <br>
@@ -101,6 +89,21 @@
           <i>{{ $t("CV.cvWorkNine") }}</i> <br>
           {{ $t("CV.cvWorkEight") }}
         </span>
+        <span>
+          <i>2019 - 2020</i> <br>
+          <strong>{{ $t("CV.cvWorkTwo") }}</strong>
+          {{ $t("CV.cvWorkFour") }}<br>
+          <i>{{ $t("CV.cvWorkFive") }}</i>
+        </span>
+        <span>
+          <i>2018</i><br>
+          <strong>{{ $t("CV.cvWorkTwo") }}</strong>
+          Landschaftsgestaltung Straßen-, Tief und Wasserbau GmbH Freiberg<br>
+          <i>{{ $t("CV.cvWorkThree") }}</i>
+        </span>
+
+
+
       </div>
     </div>
   </div>

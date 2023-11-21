@@ -5,7 +5,7 @@
         <span style="font-size: 100px">Wilhelm Franke</span>
         <span style="font-weight: normal"> {{ $t("CV.mainsite") }} </span>
       </div>
-      <img src="/src/assets/meiner%202.jpeg">
+      <img src="/src/assets/Wilhelm.jpg">
     </div>
   </div>
   <div class="main-content">

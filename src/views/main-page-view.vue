@@ -5,7 +5,7 @@
         <span style="font-size: 80px"> {{ $t("mainsite") }} </span>
         <span style="font-weight: normal; font-size: 22px"> {{ $t("CV.mainsite") }} </span>
       </div>
-      <img src="/src/assets/meiner 2.jpeg">
+      <img src="/src/assets/meiner%202.jpeg">
     </div>
   </div>
   <div class="main-content">
